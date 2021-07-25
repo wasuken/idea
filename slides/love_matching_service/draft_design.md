@@ -1,5 +1,6 @@
 ---
 theme: uncover
+backgroundColor: skyblue
 ---
 
 <!--
@@ -42,15 +43,17 @@ Service設計編
 
 ---
 
-### Persona
+<!--
+_header: Persona
+-->
 
 # Personality
 
-着本的にfake news等に流されにくい、netに強い、やればできる、自分以外が間違っている
+基本的にfake news等に流されにくい、netに強い、やればできる、自分以外が間違っている、論理的
 
-と思い込んでいる。
+と**思い込んでいる**。
 
-論理的と思い込んでいるが、割と感情的。
+割と感情的。
 
 自分の意思を抑制するのがうまい。
 
@@ -58,7 +61,9 @@ Service設計編
 
 ---
 
-### Persona
+<!--
+_header: Persona
+-->
 
 # Digital Profile
 
@@ -74,81 +79,34 @@ literacyは高いと思い込んでいるが、普通より少し高い程度。
 
 ---
 
-# Persona
-
-2. 栗山金子(30)
-* 趣味: Anime, Game, Dojin
-* 職業: 事務員
-* Life Style(仕事除)
-  * 割とEvent等で外界へ赴く。
-* 性格: 批判的。
-* 悩み: 彼氏がいない。
-* SNS: Twitter。
+# Story
 
 ---
 
-### Persona
+<!--
+_header: Story
+-->
 
-# Personality
+1. 現状
 
-人間関係は基本的に薄く、そつなく程度。
-
-人間関係が下手なわけではない。消費MPが他人と比べて多く、
-
-かつ節約できることを理解した上で立ち回っている。
-
-趣味、興味のないものに感情をださない。
-
-同士(趣味があう人間)にはかなり感情的になる(早口的な意味で)。
+* 交友関係狭、彼女無、素直に寂しい。
+	+ 彼女がいないことに対する漠然とした不安感。
+* 厚い交友関係、重い交際関係は作りたくない。
 
 ---
 
-### Persona
+<!--
+_header: Story
+-->
 
-# Digital Profile
+2. LLoMaを使う
 
-携帯、tablet, PCで検索を行う。
-
-literacyは比較的高い。
-
-嘘情報以前に政治、宗教系の話題にはふれない。
-
----
-
-# Persona
-
-3. 橋本優(30)
-* 趣味: Anime, Game, Dojin
-* 職業: Programmer
-* Life Style(仕事除)
-  * Hardware全般のDIY。
-* 性格: 温厚。
-* 悩み: 最近推しのVが引退した。
-* SNS: Twitter、Mastodon
-
----
-
-### Persona
-
-# Personality
-
-職場の変な人達に分類される。故に同じ変な人たちとは仲良し。
-
-TwitterではHardware界隈でかなり有名でFollowerが多数いる。
-
----
-
-### Persona
-
-# Digital Profile
-
-携帯、tablet, PCで検索を行う。
-
-literacyはかなり高い。
-
-論理的思考はもちろん、Souceの裏取りまで行う。
-
-英語も読める。
+* いわゆるOnline Game的な彼女が作れる。
+	+ 一時的ではあるが、寂しさを埋めることができる。
+	+ 軽い関係。
+	+ 匿名のため、さらに軽い関係。
+	+ Shuffle Roomにより、共通の趣味等をもつ人間との邂逅が期待できる。
+	+ 性別関係ないので、男女比関係なく運営可能。
 
 ---
 
@@ -174,8 +132,6 @@ literacyはかなり高い。
 
 * 変更反映速度向上
 
-* Bug抑制
-
-	Test導入。
+* Test導入。
 
 * Shuffle Matchingの満足感
